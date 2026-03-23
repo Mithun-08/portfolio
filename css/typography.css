@@ -1,0 +1,62 @@
+body {
+  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: "Inter", sans-serif;
+  color: var(--ink);
+}
+
+.nav-title {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.button-text {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.image-caption {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.main-title {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.subheader-text {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.body-text {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: justify;
+  color: var(--ink);
+}
+
+.project-card-text {
+  /* text clamp removed — full description shows */
+}
+
+.project-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.resume-category-title {
+  color: var(--muted) !important;
+}
+
+.resume-item-date {
+  color: var(--muted) !important;
+}
+
+.resume-item-subtitle {
+  color: var(--muted) !important;
+}
